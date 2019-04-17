@@ -21,7 +21,5 @@
     "url": "https://github.com/smashingboxes/front-end-test-angular/issues"
   },
   "homepage": "https://github.com/smashingboxes/front-end-test-angular#readme",
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
