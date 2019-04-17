@@ -1,0 +1,27 @@
+{
+  "name": "front-end-test-angular",
+  "version": "1.0.0",
+  "description": "A front end test for Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node --require babel-core/register node_modules/karma/bin/karma start",
+    "build": "webpack -d --progress --colors",
+    "build-production": "NODE_ENV=production webpack -p --progress --colors",
+    "lint": "eslint src/**/*.js",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smashingboxes/front-end-test-angular.git"
+  },
+  "author": "Zach Kuhn",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/smashingboxes/front-end-test-angular/issues"
+  },
+  "homepage": "https://github.com/smashingboxes/front-end-test-angular#readme",
+  "dependencies": {
+    
+  }
+}
